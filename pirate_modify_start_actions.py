@@ -5,6 +5,7 @@ import os
 from tasklib.task import TaskWarrior
 def hook_test(task):
         if task.active and not task.original.get('start'):
+#              else exit
                     print("This is a working example.")
 
 # if envar $TASKDATA exists
