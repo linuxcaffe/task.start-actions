@@ -11,8 +11,8 @@ Note: This hook has been written to leverage taskpirate, for greater hook effici
 Please see https://github.com/tbabej/taskpirate for instructions. Don't worry, it's straightforward.
 
 ```
-git clone https://github.com/tbabej/taskwarrior-shift-all-recurrence-hook.git
-cp taskwarrior-shift-all-recurrence-hook/on-* ~/.task/hooks/
+git clone https://github.com/linuxcaffe/task.start-actions
+cp task.start-actions/on-* ~/.task/hooks/
 ```
 
 This hook leverages tasklib, so you need to install that too:
