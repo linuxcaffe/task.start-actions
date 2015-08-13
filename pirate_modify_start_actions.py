@@ -9,7 +9,7 @@ def hook_test(task):
 
 # if envar $TASKDATA exists
 #       then $TASKDIR=$TASKDATA
-# else $TASKDIR=~/.task
+#       else $TASKDIR=~/.task
 
 # tasknote actions
 # if envar $TASKNOTES exists
