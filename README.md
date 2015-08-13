@@ -1,14 +1,13 @@
-Taskwarrior Shift All Recurrence Attributes Hook
+Taskwarrior Start Actions Hook
 ------------------------------------------------
 
 This is a hook for TaskWarrior (http://www.taskwarrior.org),
-which allow your recurrent tasks to inherit ``wait``, ``scheduled``
-and ``until`` attributes from the parent.
+which allows configurable actions to be initiated on 'task ID start'. 
 
 Install
 -------
 
-Note: This hook has been rewritten to leverage taskpirate, for greater hook efficiency.
+Note: This hook has been written to leverage taskpirate, for greater hook efficiency.
 Please see https://github.com/tbabej/taskpirate for instructions. Don't worry, it's straightforward.
 
 ```
