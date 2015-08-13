@@ -13,4 +13,6 @@ def hook_test(task):
         if task.active and not task.original.get('start'):
                     print("This is a working example.")
 
-# tasknote
+# tasknote actions
+# if task has tasknote, open that
+# if task has +note tag, but no tasknote, open new tasknote
