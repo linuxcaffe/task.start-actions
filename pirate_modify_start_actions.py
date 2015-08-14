@@ -45,6 +45,6 @@ def hook_test(task):
 #    QUERY=description - firstword (presuming that will be verb [search|research|find] etc)
 #    open $WEBAPP $QUERY
 
-# if ../timelog-hook exists
+# if $TASKDIR/hooks/timelog-hook exists
 #     stop timelog
 
