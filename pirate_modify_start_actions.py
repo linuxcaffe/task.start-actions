@@ -40,10 +40,11 @@ def hook_test(task):
 # if envar $TASKBROWSER exists
 #     then WEBAPP=$TASKBROWSER
 #     else WEBAPP=elinks
+# SEARCH_PREFIX=google:
 # if task has url annotation(s), open with $WEBAPP
 # if task has +web tag, but no url annotation
 #    QUERY=description - firstword (presuming that will be verb [search|research|find] etc)
-#    open $WEBAPP $QUERY
+#    open $WEBAPP $SEARCH_PREFIX $QUERY
 
 # if $TASKDIR/hooks/timelog-hook exists
 #     stop timelog
