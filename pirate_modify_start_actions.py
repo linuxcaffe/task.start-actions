@@ -14,7 +14,7 @@ def hook_test(task):
 #       then TASKDIR=$TASKDATA
 #       else TASKDIR=~/.task
 
-# if ../hooks/timelog-hook exists
+# if $TASKDIR/hooks/timelog-hook exists
 #    start timelog
 
 # annotate actions
