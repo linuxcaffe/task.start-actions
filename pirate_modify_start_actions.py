@@ -40,7 +40,7 @@ def hook_test(task):
 # if envar $TASKBROWSER exists
 #     then WEBAPP=$TASKBROWSER
 #     else WEBAPP=elinks
-# if task has url annotation, open the first one with $WEBAPP
+# if task has url annotation(s), open with $WEBAPP
 # if task has +web tag, but no url annotation
 #    QUERY=description - firstword (presuming that will be verb [search|research|find] etc)
 #    open $WEBAPP $QUERY
