@@ -2,6 +2,7 @@
 
 import sys
 import os
+import subprocess
 from tasklib.task import TaskWarrior
 def hook_test(task):
         if task.active and not task.original.get('start'):
@@ -45,6 +46,7 @@ def hook_test(task):
 # if task has +web tag, but no url annotation
 #    QUERY=description - firstword (presuming that will be verb [search|research|find] etc)
 #    open $WEBAPP $SEARCH_PREFIX $QUERY
+# subprocess.Popen(['firefox', 'www.google.com'])
 
 # if $TASKDIR/hooks/timelog-hook exists
 #     stop timelog
