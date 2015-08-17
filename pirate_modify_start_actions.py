@@ -23,9 +23,6 @@ def hook_test(task):
 #    DETAILS=words after upper-cased one(s) (about fishing trip)
 # else NOUN=all words after first word
 
-# if $TASKDIR/hooks/timelog-hook exists
-#    start timelog
-
 # annotate actions
 # if +ann tag exists
 #    open Annotation: prompt
@@ -56,6 +53,4 @@ def hook_test(task):
 #    open $WEBAPP $SEARCH_PREFIX $QUERY
 # subprocess.Popen(['firefox', 'www.google.com'])
 
-# if $TASKDIR/hooks/timelog-hook exists
-#     stop timelog
 
