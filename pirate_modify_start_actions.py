@@ -15,7 +15,7 @@ def hook_test(task):
 #     then TASKDIR=$TASKDATA
 #     else TASKDIR=~/.task
 
-# parse description for verb/ noun components
+# parse description for verb/ noun/ details components
 # example "call Billy Bass about fishing trip"
 # VERB=first word of description (call)
 # if second word starts upper-case
