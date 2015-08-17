@@ -17,10 +17,10 @@ def hook_test(task):
 
 # parse description for verb/ noun components
 # example "call Billy Bass about fishing trip"
-# VERB=first word of description
+# VERB=first word of description (call)
 # if second word starts upper-case
-#    NOUN=upper-cased words
-#    DETAILS=words after upper-cased one(s)
+#    NOUN=upper-cased word(s) (Billy Bass)
+#    DETAILS=words after upper-cased one(s) (about fishing trip)
 # else NOUN=all words after first word
 
 # if $TASKDIR/hooks/timelog-hook exists
