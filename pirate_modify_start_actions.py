@@ -5,15 +5,23 @@ import os
 import subprocess
 from tasklib.task import TaskWarrior
 def hook_test(task):
-        if task.active and not task.original.get('start'):
+    if task.active and not task.original.get('start'):
 #              else exit
-                    print("This is a working example.")
+        print("This is a working example.")
 
 # any matching actions are performed sequentially, in top-down order
 
 # if envar $TASKDATA exists
-#       then TASKDIR=$TASKDATA
-#       else TASKDIR=~/.task
+#     then TASKDIR=$TASKDATA
+#     else TASKDIR=~/.task
+
+# parse description for verb/ noun components
+# example "call Billy Bass about fishing trip"
+# VERB=first word of description
+# if second word starts upper-case
+#    NOUN=upper-cased words
+#    DETAILS=words after upper-cased one(s)
+# else NOUN=all words after first word
 
 # if $TASKDIR/hooks/timelog-hook exists
 #    start timelog
